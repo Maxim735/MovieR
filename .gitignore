@@ -1,0 +1,4 @@
+.idea
+.venv
+movie_parser/data
+movie_parser/tokens.py
