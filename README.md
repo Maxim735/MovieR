@@ -28,7 +28,6 @@ Requests connected **with charts**:
 - /charts/countries/{country}/{content_type}/{rating_type}/{amount} get top movies by country
 - /charts/genres/{genre}/{content_type}/{rating_type}/{amount} get top movies by genre
 - /charts/years/{year}/{content_type}/{rating_type}/{amount} get top movies by year
-- 
 
 Requests connected **with data**:
 - /data/year/{movie_name} get year of the movie by name
