@@ -22,7 +22,7 @@ Requests connected **with recommendations**:
 - /recommendations/user/{user_id} get personal recommendations by user id. Recs are being created by user reviews
 - /recommendations/content/genres/{movie_title} get content recommendations by movie. Recs are being created by movie genres
 - /recommendations/content/years/{movie_title} get content recommendations by movie. Recs are being created by movie year
-- /recommendations/content/{movie_title} get mixed content recommendations by movie. Recs are being created by year(weight 0.2) and genres(weight 0.2)
+- /recommendations/content/{movie_title} get mixed content recommendations by movie. Recs are being created by year(weight 0.2) and genres(weight 0.8)
 
 Requests connected **with charts**:
 - /charts/countries/{country}/{content_type}/{rating_type}/{amount} get top movies by country
